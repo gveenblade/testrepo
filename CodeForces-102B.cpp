@@ -3,17 +3,17 @@
 #include<sstream>
 using namespace std;
 
-string s,c="";
+string s, c = "";
 stringstream ss;
 int SumOfDigits(string s){
 	int temp = 0;
-	for(int i=0;i<s.size();i++)
+	for(int i = 0; i < s.size(); i++)
 	{
-		temp += s[i]-48;
+		temp += s[i] - 48;
 	}
 	ss<<temp;
 	ss>>c;
-	s=c;
+	s = c;
 	return temp;
 }
 string intToString(string s){
