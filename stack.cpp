@@ -60,7 +60,7 @@ int main()
 			int n;
 			cin >> n;
 			st.push(n);
-			cout << "ok\n";
+			cout << "ok"<<endl;
 		}
 		else if (s == "pop")
 		{
@@ -74,11 +74,11 @@ int main()
 		else if (s == "clear")
 		{
 			st.clear();
-			cout << "ok\n";
+			cout << "ok"<<endl;
 		}
 		else
 		{
-			cout << "bye\n";
+			cout << "bye"<<endl;
 			break;
 		}
 	}
