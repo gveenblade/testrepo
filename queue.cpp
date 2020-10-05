@@ -62,7 +62,7 @@ int main()
 			int n;
 			cin >> n;
 			q.push(n);
-			cout << "ok\n";
+			cout << "ok"<<endl;
 		}
 		else if (s == "pop")
 		{
@@ -76,11 +76,11 @@ int main()
 		else if (s == "clear")
 		{
 			q.clear();
-			cout << "ok\n";
+			cout << "ok"<<endl;
 		}
 		else
 		{
-			cout << "bye\n";
+			cout << "bye"<<endl;
 			break;
 		}
 	}
